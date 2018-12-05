@@ -4,19 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class MyClass {
+public class PG4 {
 	public static void main(String[] args) throws InterruptedException {
-
+		
 		WebDriver driver = new ChromeDriver();
 		
-		String baseUrl = "https://www.google.com";
-		driver.get(baseUrl);
-		
-		driver.findElement(By.name("q")).sendKeys("Obama");
+		driver.get("http://demo.guru99.com/selenium/deprecated.html");
+		driver.switchTo().frame("classFrame");
+		driver.findElement(By.linkText("Deprecated")).click();
 		
 		Thread.sleep(5000);
-		
-		driver.findElement(By.name("btnK")).click();
 		driver.close();
-	    }
+	}
 }
