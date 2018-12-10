@@ -9,7 +9,7 @@ public class PG3 {
 		WebDriver driver = new ChromeDriver();
 	
 		driver.get("http://www.popuptest.com/popuptest2.html");
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		driver.quit();
 		/*
 		 * driver.close();
