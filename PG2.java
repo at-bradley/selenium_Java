@@ -18,5 +18,7 @@ public class PG2 {
 		Thread.sleep(Long.MAX_VALUE);
 		driver.close();
 		System.exit(0);
+		
+		driver.close();
 	}
 }
