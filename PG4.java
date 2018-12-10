@@ -13,7 +13,7 @@ public class PG4 {
 		driver.switchTo().frame("classFrame");
 		driver.findElement(By.linkText("Deprecated")).click();
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		driver.close();
 	}
 }
