@@ -17,7 +17,7 @@ public class MyClass_2 {
 		driver.switchTo().alert().accept();
 		
 		System.out.println(alertMessage);
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		driver.quit();
 	}
 }
