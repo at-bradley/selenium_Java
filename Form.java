@@ -31,7 +31,7 @@ public class Form {
 		email.sendKeys("abcd@gmail.com");
 		password.sendKeys("abcdefghlkjl");
 		login.click();
-		System.out.println("Login Done W/ Click");
+		System.out.println("Login Done With Click");
 		
 		driver.get(baseUrl);
 		driver.findElement(By.id("email")).sendKeys("abcd@gmail.com");
