@@ -14,7 +14,7 @@ public class MyClass {
 		
 		driver.findElement(By.name("q")).sendKeys("Obama");
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		
 		driver.findElement(By.name("btnK")).click();
 		driver.close();
